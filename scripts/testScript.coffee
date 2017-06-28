@@ -25,7 +25,7 @@ module.exports = (robot) ->
     msg.send 'huga'
     msg.send "@#{msg.message.user.name}, foo bar."
     # reply使うとメッセージを送ったユーザーにリプライできるっぽい
-    msg.reply 'fooooooooooo'
+    msg.reply 'foo foo foo'
 
   # respondすると hubot search `something` のようにhubotに命令できる
   # http (get, post) もできたりするので組み合わせると面白いかも
